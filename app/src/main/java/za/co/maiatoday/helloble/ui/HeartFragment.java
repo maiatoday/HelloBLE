@@ -1,4 +1,4 @@
-package za.co.maiatoday.helloble;
+package za.co.maiatoday.helloble.ui;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -7,28 +7,30 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import za.co.maiatoday.helloble.R;
+
 /**
  * Created by maia on 2014/05/24.
  */
-public class ConnectionFragment  extends Fragment {
+public class HeartFragment extends Fragment {
     /**
      * Returns a new instance of this fragment for the given section
      * number.
      */
-    public static ConnectionFragment getInstance() {
-        ConnectionFragment fragment = new ConnectionFragment();
+    public static HeartFragment getInstance() {
+        HeartFragment fragment = new HeartFragment();
         Bundle args = new Bundle();
         fragment.setArguments(args);
         return fragment;
     }
 
-    public ConnectionFragment() {
+    public HeartFragment() {
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_connection, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_main, container, false);
         TextView t = (TextView) rootView.findViewById(R.id.section_label);
         return rootView;
     }

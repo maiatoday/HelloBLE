@@ -12,3 +12,5 @@ http://www.youtube.com/watch?v=vUbFB1Qypg8
 https://thenewcircle.com/s/post/1553/bluetooth_smart_le_android_tutorial
 
 http://en.wikipedia.org/wiki/Bluetooth_low_energy
+
+https://github.com/devunwired/accessory-samples

@@ -1,4 +1,4 @@
-package za.co.maiatoday.helloble;
+package za.co.maiatoday.helloble.ui;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -6,6 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import za.co.maiatoday.helloble.R;
 
 /**
  * Created by maia on 2014/05/24.
