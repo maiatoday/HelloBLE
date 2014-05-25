@@ -20,6 +20,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ble.DeviceScanActivity" ></activity>
+        <activity android:name=".ble.DeviceControlActivity" ></activity>
         <service android:name=".ble.BluetoothLeService" android:enabled="true"/>
     </application>
 
